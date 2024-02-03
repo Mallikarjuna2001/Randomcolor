@@ -32,9 +32,14 @@ main {
     padding: 20px;
 }
 
-#content {
+#home,
+#about,
+#services {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 }
 
 button {
@@ -43,4 +48,16 @@ button {
     padding: 10px;
     border: none;
     cursor: pointer;
+}
+
+#services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#services li {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
